@@ -89,7 +89,7 @@
 
       .button-style {
         text-decoration: none;
-        color: #410002;
+        color: rgb(255, 255, 255);
       }
 
       .icon {
@@ -111,7 +111,37 @@
         background-size: contain;
       }
 
+.button {
+  background-color: #d93951;
+  border: 1px solid #d93951;
+  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+  color: white;
+  border-radius: 6px;
+  box-shadow: rgba(219, 8, 8, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 16px;
+  min-height: 40px;
+  min-width: 120px;
+  outline: 0;
+  padding: 6px 12px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
 
+}
+
+.button:hover,
+.button:active {
+  opacity: 0.5;
+  background-position: 0 0;
+}
 
 
     </style>
@@ -148,7 +178,8 @@
             assumenda expedita iure quae, at, ullam nihil. Veritatis aspernatur
             illum corrupti dolorum.
           </p>
-          <button>
+          <div style="text-align: center;">
+          <button class="button">
             <a
               target="_blank"
               href="https://tuta.com/blog/post-quantum-cryptography"
@@ -156,6 +187,7 @@
               >Read more</a
             >
           </button>
+        </div>
  </div>
       <!-- </div> -->
 <footer>
